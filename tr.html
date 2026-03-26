@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GymTimer - Gizlilik Politikası</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0d0d0d;
+      color: #d4d4d4;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      color: #888;
+      font-size: 0.95rem;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #222;
+    }
+
+    p { margin-bottom: 14px; }
+
+    ul {
+      margin: 0 0 14px 20px;
+      padding: 0;
+    }
+
+    li { margin-bottom: 6px; }
+
+    strong { color: #e0e0e0; }
+
+    a {
+      color: #4da6ff;
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .badge {
+      display: inline-block;
+      background: #1a1a2e;
+      color: #7c8aff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
+    .highlight-box {
+      background: #111;
+      border-left: 3px solid #4da6ff;
+      padding: 16px 20px;
+      border-radius: 4px;
+      margin: 16px 0;
+    }
+
+    .no-collect-list li {
+      color: #888;
+    }
+
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 16px;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #222;
+      color: #555;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="lang-switch">
+      <a href="index.html">English</a>
+    </div>
+
+    <h1>Gizlilik Politikası</h1>
+    <p class="subtitle">GymTimer &mdash; Mart 2026 itibarıyla geçerlidir</p>
+
+    <!-- 1. Giriş -->
+    <h2>Giriş</h2>
+    <p>
+      GymTimer, <strong>HekaPhysio</strong> tarafından geliştirilmekte ve yayınlanmaktadır.
+      Bu politika, uygulamanın hangi verileri işlediğini, nasıl depoladığını ve bu verilere
+      ilişkin haklarınızı açıklar.
+    </p>
+    <div class="highlight-box">
+      GymTimer <strong>çevrimdışı öncelikli</strong> bir uygulamadır. Kullanıcı hesabı
+      gerektirmez, bulut senkronizasyonu yoktur ve tüm kişisel veriler yalnızca cihazınızdaki
+      SQLite veritabanında saklanır. Yerel verilerinize erişemez, okuyamaz veya geri alamayız.
+    </div>
+    <p>
+      GymTimer; iOS, Android ve Apple Watch platformlarında kullanılabilir
+      (paket&nbsp;kimliği:&nbsp;<code>com.gymtimer.app</code>).
+    </p>
+
+    <!-- 2. Topladığımız Veriler -->
+    <h2>Topladığımız Veriler</h2>
+    <p>
+      Aşağıdaki tüm veriler <strong>yalnızca cihazınızda</strong> saklanır.
+      Hiçbiri sunucularımıza aktarılmaz.
+    </p>
+    <ul>
+      <li>
+        <strong>Zamanlayıcı durumu</strong> &mdash; kalan saniye, zamanlayıcı durumu ve
+        mevcut set sayısı. Yalnızca oturum süresince saklanır.
+      </li>
+      <li>
+        <strong>Antrenman şablonları</strong> &mdash; yerleşik ve kullanıcı tarafından
+        oluşturulan şablonlar. Siz silene kadar saklanır.
+      </li>
+      <li>
+        <strong>Oturum geçmişi</strong> &mdash; zaman damgaları, antrenman modu, set sayısı,
+        dinlenme süresi ve tamamlanma yüzdesi. <strong>365&nbsp;gün</strong> sonra otomatik
+        olarak silinir.
+      </li>
+      <li>
+        <strong>Kurulum kimliği</strong> &mdash; uygulama tarafından oluşturulan rastgele bir
+        UUID. Apple&nbsp;ID, Google hesabı veya herhangi bir kişisel tanımlayıcıyla
+        ilişkilendirilmez. Uygulamayı kaldırana veya sıfırlayana kadar saklanır.
+      </li>
+      <li>
+        <strong>Bildirim ayarları</strong> &mdash; bildirim tercihleriniz. Siz değiştirene
+        kadar saklanır.
+      </li>
+      <li>
+        <strong>Tema ve dil tercihleri</strong> &mdash; siz değiştirene kadar saklanır.
+      </li>
+    </ul>
+
+    <!-- 3. Üçüncü Taraf Hizmetler -->
+    <h2>Üçüncü Taraf Hizmetler</h2>
+    <p>GymTimer aşağıdaki üçüncü taraf hizmeti kullanır:</p>
+    <ul>
+      <li>
+        <strong>RevenueCat</strong> &mdash; yalnızca uygulama içi satın alma doğrulaması için
+        kullanılır. RevenueCat anonim bir uygulama kullanıcı kimliği ve işlem makbuzları alır.
+        Adınızı, e-posta adresinizi veya başka herhangi bir kişisel bilgiyi almaz.
+        Ayrıntılar için
+        <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">
+        RevenueCat Gizlilik Politikası</a>'na bakınız.
+      </li>
+    </ul>
+
+    <!-- 4. Planlanan Özellikler -->
+    <h2>Planlanan Özellikler <span class="badge">HENÜZ AKTİF DEĞİL</span></h2>
+    <p>
+      Aşağıdaki özellikler gelecek sürümler için planlanmıştır. Şu anda uygulamada aktif
+      değildir. Bu bölüm, her özellik yayınlanmadan önce güncellenecektir.
+    </p>
+    <ul>
+      <li>
+        <strong>HealthKit / Health Connect entegrasyonu</strong> &mdash; yalnızca türetilmiş
+        antrenman özetlerini paylaşacaktır (ham sağlık verileri değil). Açık kullanıcı onayı
+        gerektirir. Veriler cihazda 365&nbsp;gün saklanır.
+      </li>
+      <li>
+        <strong>Çökme teşhisi</strong> &mdash; hataları düzeltmemize yardımcı olmak için
+        yığın izleri, uygulama sürümü ve işletim sistemi sürümünü toplayacaktır.
+        30&nbsp;gün saklanır.
+      </li>
+      <li>
+        <strong>Ürün analitiği</strong> &mdash; kişisel tanımlayıcılar olmadan anonimleştirilmiş
+        kullanım olayları (ör. özellik kullanımı, oturum sayıları) toplayacaktır.
+        180&nbsp;gün saklanır.
+      </li>
+    </ul>
+
+    <!-- 5. Toplamadığımız Veriler -->
+    <h2>Toplamadığımız Veriler</h2>
+    <p>
+      GymTimer aşağıdaki verilerin hiçbirini toplamaz, saklamaz veya iletmez &mdash;
+      şimdi veya planlanan herhangi bir güncellemede:
+    </p>
+    <ul class="no-collect-list">
+      <li>Ad, e-posta adresi, telefon numarası, doğum tarihi veya posta adresi</li>
+      <li>Kişiler veya adres defteri verileri</li>
+      <li>Fotoğraflar, kamera veya mikrofon erişimi</li>
+      <li>GPS veya konum verileri</li>
+      <li>Cihaz reklam tanımlayıcıları (IDFA / AAID)</li>
+      <li>IMEI, cihaz seri numarası veya donanım tanımlayıcıları</li>
+      <li>Pano içerikleri</li>
+      <li>Ham sağlık verileri (kalp atış hızı, adım sayısı vb.)</li>
+    </ul>
+
+    <!-- 6. Haklarınız -->
+    <h2>Haklarınız</h2>
+    <p>
+      GymTimer verileri cihazınızda yerel olarak sakladığı ve kullanıcı hesapları veya bulut
+      altyapısı kullanmadığı için haklarınız oldukça basittir:
+    </p>
+    <ul>
+      <li>
+        <strong>Yerel verilere erişim ve silme</strong> &mdash; uygulamayı kaldırmak,
+        yerel olarak saklanan tüm verileri kalıcı olarak siler. Ayrıca uygulama içinden
+        bireysel şablonları ve geçmişi de silebilirsiniz.
+      </li>
+      <li>
+        <strong>RevenueCat veri silme</strong> &mdash; RevenueCat tarafından tutulan satın
+        alma verilerinin silinmesini talep etmek için
+        <a href="mailto:hekaphysio@gmail.com">hekaphysio@gmail.com</a> adresine e-posta
+        gönderin; talebinizi sizin adınıza işleme alacağız.
+      </li>
+      <li>
+        <strong>Veri satışı yoktur</strong> &mdash; verilerinizi reklam veya pazarlama
+        amacıyla üçüncü taraflara satmıyoruz, kiralamıyoruz veya paylaşmıyoruz. Bu hem
+        KVKK hem de GDPR kapsamında geçerlidir.
+      </li>
+    </ul>
+
+    <!-- 7. Çocukların Gizliliği -->
+    <h2>Çocukların Gizliliği</h2>
+    <p>
+      GymTimer, 13 yaşın altındaki çocuklara yönelik olarak tasarlanmamıştır. Çocuklardan
+      bilerek kişisel bilgi toplamıyoruz. 13 yaşın altındaki bir çocuğun bize veri
+      sağladığına inanıyorsanız, lütfen
+      <a href="mailto:hekaphysio@gmail.com">hekaphysio@gmail.com</a> adresinden bizimle
+      iletişime geçin; durumu ele almak için gerekli adımları atacağız.
+    </p>
+
+    <!-- 8. Bu Politikadaki Değişiklikler -->
+    <h2>Bu Politikadaki Değişiklikler</h2>
+    <p>
+      Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler
+      yaptığımızda, bu sayfanın üst kısmındaki geçerlilik tarihini güncelleyeceğiz.
+      Bu politikayı düzenli olarak gözden geçirmenizi öneririz.
+    </p>
+
+    <!-- 9. Bize Ulaşın -->
+    <h2>Bize Ulaşın</h2>
+    <p>
+      Bu gizlilik politikası hakkında herhangi bir sorunuz veya endişeniz varsa lütfen
+      bizimle iletişime geçin:
+    </p>
+    <ul>
+      <li><strong>Geliştirici:</strong> HekaPhysio</li>
+      <li><strong>E-posta:</strong> <a href="mailto:hekaphysio@gmail.com">hekaphysio@gmail.com</a></li>
+    </ul>
+
+    <footer>
+      &copy; 2026 HekaPhysio. Tüm hakları saklıdır.
+    </footer>
+
+  </div>
+</body>
+</html>
